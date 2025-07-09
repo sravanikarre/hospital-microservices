@@ -27,7 +27,7 @@ This is a demo healthcare microservices project built with Spring Boot. It inclu
 3. Start `hospital-service`
 4. Start `api-gateway`
 
-All configs are pulled dynamically from the [Config Repo](https://github.com/YOUR_USERNAME/hospital-config-repo)
+All configs are pulled dynamically from the [Config Repo](https://github.com/sravanikarre/hospital-config-repo.git))
 
 ## 🗃️ Directory Structure
 
