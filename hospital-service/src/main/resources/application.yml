@@ -1,0 +1,27 @@
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: hospital-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/hospital_system
+    username: root
+    password: sravani
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    hostname: localhost
