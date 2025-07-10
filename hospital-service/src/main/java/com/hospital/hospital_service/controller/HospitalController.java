@@ -18,8 +18,8 @@ public class HospitalController {
     private HospitalService hospitalService;
 
     @GetMapping
-    public String getAllHospitals(){
-        return "Welcome to Hospital Service";
+    public List<Hospital> getAllHospitals(){
+        return hospitalService.getAllHospitals();
 
     }
 }
